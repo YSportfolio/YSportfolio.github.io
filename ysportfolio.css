@@ -425,7 +425,7 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(..cityed.jpg) white no-repeat center center;
+  background: url(light.jpg) no-repeat center center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -456,7 +456,7 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/minimalist.png) white no-repeat center center;
+  background: url('cityed.jpg') white no-repeat center center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -487,7 +487,7 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/free.png) white no-repeat center center;
+  background: url('cityed.jpg') white no-repeat center center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -654,64 +654,8 @@ h1 span{
 
 /* Partners */
 
-.partners{
-  position:relative;
-  width:100%;
-  height:400px;
-  background:url('../img/background/partners.jpg') 0px 0px fixed;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  z-index:10;
-}
 
-.partners .opacity{
-  position:absolute;
-  width:100%;
-  height:400px;
-  background:rgba(79,79,79,0.6);
-}
 
-.partners .content{
-  position:absolute;
-  width:900px;
-  height:190px;
-  margin:auto;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-}
-
-.partners h2{
-  color:white;
-  letter-spacing:1px;
-  font-size:32px;
-  font-weight:300;
-  text-align:center;
-}
-
-.partners .logo{
-  position:relative;
-  width:900px;
-  overflow:hidden;
-  margin-top:50px;
-  text-align:center;
-}
-
-.partners .logo img{
-  opacity:0.5;
-  -webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
-}
-
-.partners .logo img:hover{
-  opacity:1;
-}
 
 /* Contact */
 

@@ -13,24 +13,6 @@
  */
 
 
-.preloader{
-  position:fixed;
-  width:100%;
-  height:100%;
-  background:white;
-  z-index:99999;
-}
- 
-.preloader .item{
-  position:absolute;
-  width:100px;
-  height:100px;
-  left:50%;
-  top:50%;
-  margin-left:-50px;
-  margin-top:-50px;
-} 
-
 
 html, body{
   font-family: 'Lato', sans-serif;
@@ -120,7 +102,8 @@ h1 span{
   position:absolute;
   width:100%;
   height:100%;
-  background:rgba(51,51,51,0.5); /* Standard Off */
+  background:rgba(51,51,51,0.5);
+   /* Standard Off */
 }
 
 
@@ -425,7 +408,7 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(light.jpg) no-repeat center center;
+  background: url(uni3.jpg) no-repeat center center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -456,7 +439,7 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url('cityed.jpg') white no-repeat center center;
+  background: url('uni33.jpg') no-repeat center center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -487,7 +470,7 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url('cityed.jpg') white no-repeat center center;
+  background: url('uni333.jpg') no-repeat center center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -812,9 +795,15 @@ input.submit{
 .footer{
   position:fixed;
   bottom:0;
+  border-right: 20px;
+  border-right-color: white;
   width:100%;
   background:#3c3c3c;
+  margin-left: 5px;
+  margin-right: 50px;
+  padding-right: 50px;
 }
+
 
 .footer .logo{
 
@@ -822,7 +811,7 @@ input.submit{
   width:58px;
   height:58px;
   margin: 0 auto;
-  padding-top:50px;
+  padding-top:20px;
 
 }
 
@@ -1335,7 +1324,7 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url('cityed.jpg') white no-repeat center center;
+  background: url('uni3.jpg') no-repeat center center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -1366,7 +1355,7 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url('cityed.jpg') white no-repeat center center;
+  background: url('uni33.jpg') no-repeat center center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -1397,7 +1386,7 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url('cityed.jpg') white no-repeat center center;
+  background: url('uni333.jpg') no-repeat center center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -1571,64 +1560,7 @@ h1 span{
 
 /* Partners */
 
-.partners{
-  position:relative;
-  width:100%;
-  z-index:10;
-  height:400px;
-  background:url('../img/background/partners.jpg') 0px 0px fixed;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
-.partners .opacity{
-  position:absolute;
-  width:100%;
-  height:400px;
-  background:rgba(79,79,79,0.6);
-}
-
-.partners .content{
-  position:absolute;
-  width:900px;
-  height:190px;
-  margin:auto;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-}
-
-.partners h2{
-  color:white;
-  letter-spacing:1px;
-  font-size:32px;
-  font-weight:300;
-  text-align:center;
-}
-
-.partners .logo{
-  position:relative;
-  width:900px;
-  overflow:hidden;
-  margin-top:50px;
-  text-align:center;
-}
-
-.partners .logo img{
-  opacity:0.5;
-  -webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
-}
-
-.partners .logo img:hover{
-  opacity:1;
-}
 
 /* Contact */
 
@@ -1785,6 +1717,9 @@ input.submit{
   bottom:0;
   width:100%;
   background:#3c3c3c;
+  margin-left: 5px;
+  margin-right: 50px;
+  padding-right: 50px;
 }
 
 .footer .logo{
@@ -1793,7 +1728,7 @@ input.submit{
   width:58px;
   height:58px;
   margin: 0 auto;
-  padding-top:50px;
+  padding-top:20px;
 
 }
 

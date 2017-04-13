@@ -102,7 +102,7 @@ h1 span{
   position:absolute;
   width:100%;
   height:100%;
-  background:rgba(51,51,51,0.5);
+  background:url(back111111.jpg) center no-repeat;
    /* Standard Off */
 }
 
@@ -1023,7 +1023,7 @@ h1 span{
   position:absolute;
   width:100%;
   height:100%;
-  background:rgba(51,51,51,0.5); /* Standard Off */
+  background:url(back111111.jpg) center no-repeat; /* Standard Off */
 }
 
 
@@ -1557,9 +1557,6 @@ h1 span{
 .clear { 
     clear:both; 
 }
-
-/* Partners */
-
 
 
 /* Contact */

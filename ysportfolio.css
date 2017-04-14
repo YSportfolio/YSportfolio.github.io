@@ -1598,39 +1598,7 @@ h1 span{
   border:0;
 }
 
-.contact .content .form{
-  width:455px;
-  overflow:hidden;
-  height:auto;
-  float:left;
-}
-
-.contact .content .form .column{
-  width:180px;
-  overflow:hidden;
-  height:auto;
-  float:left;
-  letter-spacing:1px;
-  margin-bottom:30px;
-}
-
-.contact .content .form .column-2{
-  width:210px;
-  padding-left:60px;
-  overflow:hidden;
-  height:auto;
-  float:left;
-  letter-spacing:1px;
-  margin-bottom:30px;  
-}
-
-.contact .content .form .column-3{
-  width:450px;
-  overflow:hidden;
-  height:auto;
-  float:left;
-  letter-spacing:1px;
-}
+.
 
 .contact .content .contact-text{
   width:405px;
@@ -1709,7 +1677,10 @@ input.submit{
 /*social*/
 
 table {margin-top: 60px; align-content: center;}
-th{font-family: 'Lato', sans-serif; text-align: center; align-content: center;padding-bottom: 30px; padding-top: 30px; font-size: 30px; background-color: silver;}
+table, th, td {
+    border: 10px solid white;
+}
+th{font-family: 'Lato', sans-serif; text-align: center; align-content: center;padding-bottom: 30px; padding-top: 30px; font-size: 30px;   background: #f3f3f3;}
 .twitterb {padding-left: 90px;}
 .contact h2{
   text-align:center;
